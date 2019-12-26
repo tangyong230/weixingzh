@@ -1,0 +1,21 @@
+{
+    "name": "tangyong/weixingzh",
+    "description": "微信公众号API封装",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tangyong",
+            "email": "china.php@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4":
+        {
+         "weixingzh\\library\\":"src/library/",
+            "weixingzh\\exception\\":"src/exception/"
+        }
+    }
+}
